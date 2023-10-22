@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "product_name": "Smartphone",
+      "Brand": "Samsung",
+      "Price": 499.99,
+      "Quantity": 2,
+      "Total": 999.98
+    },
+    {
+      "product_name": "Laptop",
+      "Brand": "Dell",
+      "Price": 899.99,
+      "Quantity": 1,
+      "Total": 899.99
+    },
+    {
+      "product_name": "Headphones",
+      "Brand": "Sony",
+      "Price": 79.99,
+      "Quantity": 3,
+      "Total": 239.97
+    },
+    {
+      "product_name": "Smartwatch",
+      "Brand": "Apple",
+      "Price": 299.99,
+      "Quantity": 2,
+      "Total": 599.98
+    },
+    {
+      "product_name": "Camera",
+      "Brand": "Canon",
+      "Price": 599.99,
+      "Quantity": 1,
+      "Total": 599.99
+    },
+    {
+      "product_name": "Tablet",
+      "Brand": "Microsoft",
+      "Price": 349.99,
+      "Quantity": 2,
+      "Total": 699.98
+    }
+  ]
+}
