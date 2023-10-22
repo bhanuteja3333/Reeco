@@ -24,7 +24,6 @@ app.get('/api/users', (req, res) => {
     }
 
     const jsonData = JSON.parse(data);
-    console.log(jsonData,'jsonData')
     res.setHeader('Content-Type', 'application/json');
     res.json(jsonData.products);
   });

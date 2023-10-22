@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import "font-awesome/css/font-awesome.min.css";
-// import { fetchUser } from './userSlice';
 import { Row, Col, Button, Table } from "reactstrap";
 import { fetchUsersRequest } from "../Redux/action";
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -40,7 +39,6 @@ function UserComponent() {
       ...i,
       status: i.product_name === value.product_name ? "Approve" : i?.status,
     }));
-    console.log(y, "yyyyyyyyy");
     setState(y);
   };
 
@@ -146,7 +144,6 @@ function UserComponent() {
             <tbody>
               {state?.map((product, index) => (
                 <tr key={index}>
-                  {/* <td> <img src={Avocado} className="avacodo-img" /></td> */}
                   <td style={{textAlign:'start'}}> <img src={Avocado} className="avacodo-img" />{product.product_name}</td>
                   <td>{product.Brand}</td>
                   <td>${product.Price}</td>
